@@ -1,0 +1,232 @@
+/* font-family: Raleway;
+font-weight: 700; */
+/* font-family: Roboto;
+font-weight: 400;
+font-weight: 500;
+font-weight: 700;
+font-weight: 900; */
+
+/* Основний колір тексту #212121 */
+/* Вторинний колір тексту #757575 */
+/* Колір акценту #2196f3 */
+/* Колір основного фону #ffffff */
+/* Колір фону кнопки замовлення послуг під час ховеру та фокусу #188CE8 */
+/* Колір фону підзаголовків секції занять rgba(47, 48, 58, 0.8) */
+/* Колір фону секції команди #f5f4fa */
+/* Колір фону футера #2f303a */
+
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+/* Header */
+
+.header {
+  background-color: var(--primaty-background-color);
+}
+
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo-second-part {
+  color: #000000;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.navigation-list-item-link,
+.contacts-list-item-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.contacts-list .contacts-list-item-link {
+  color: var(--secondary-text-color);
+}
+
+.navigation-list-item-link.current {
+  color: #2196f3;
+}
+
+.navigation-list-item-link:hover,
+.navigation-list-item-link:focus,
+.contacts-list-item-link:hover,
+.contacts-list-item-link:focus {
+  color: var(--accent-color);
+}
+
+/* Main */
+
+/* Hero-section */
+
+.hero-section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-window-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.modal-window-button:hover,
+.modal-window-button:focus {
+  background-color: #188ce8;
+}
+
+/* Features section */
+
+.features-list-item-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-list-item-description {
+  font-weight: 400;
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+/* Services section */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.services-list-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* Team section */
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-list-item-title,
+.team-list-item-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-list .team-list-item-description {
+  font-weight: 400;
+  color: var(--secondary-text-color);
+}
+
+/* Customers section */
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo-second-part {
+  color: #ffffff;
+}
+
+.contact-data-list-item-link {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-data-list-item-link.physical-address {
+  color: #ffffff;
+}
+
+.call-to-action {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Portfolio */
+
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: #f5f4fa;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.works-list-item-link-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.works-list-item-link-definition {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}
+
+.works-list-item-link-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #ffffff;
+}
