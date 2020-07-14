@@ -18,7 +18,7 @@
     <!-- Шапка сайту -->
     <!-- В макеті названа верхньою лінією -->
     <header class="header">
-      <div class="container header-container">
+      <div class="container">
         <!-- Навігаційне меню сайту-->
         <nav class="navigation-menu">
           <!-- Логотип веб студії, який є посиланням на головну сторінку сайту -->
@@ -293,83 +293,97 @@
     </main>
     <!-- Підвал сайту -->
     <footer class="footer">
-      <!-- Блок-обгортка для подальшої стилізації -->
-      <div>
-        <!-- Логотип веб студії, який є посиланням на головну сторінку сайту -->
-        <a class="logo link" href="./index.html" lang="en"
-          >Web <span class="logo-second-part">Studio</span></a
-        >
-        <!-- Контактні дані веб студії -->
-        <address class="address">
-          <!-- Список контактів -->
-          <ul class="contact-data-list list">
-            <!-- Фізична адреса веб студії -->
-            <li class="contact-data-list-item">
+      <div class="container">
+        <!-- Блок-обгортка для подальшої стилізації -->
+        <div class="contacts-block">
+          <!-- Логотип веб студії, який є посиланням на головну сторінку сайту -->
+          <a class="logo link" href="./index.html" lang="en"
+            >Web <span class="logo-second-part">Studio</span></a
+          >
+          <!-- Контактні дані веб студії -->
+          <address class="address">
+            <!-- Список контактів -->
+            <ul class="contact-data-list list">
+              <!-- Фізична адреса веб студії -->
+              <li class="contact-data-list-item">
+                <a
+                  class="contact-data-list-item-link physical-address link"
+                  href="https://goo.gl/maps/4vaiXXMEc3k6XGQo9"
+                  target="_blank"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <!-- Електронна адреса веб студії -->
+              <li class="contact-data-list-item">
+                <a
+                  class="contact-data-list-item-link link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <!-- Мобільний телефон веб студії -->
+              <li class="contact-data-list-item">
+                <a
+                  class="contact-data-list-item-link link"
+                  href="tel:+380991111111"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <!-- Блок-обгортка для подальшої стилізації -->
+        <div class="social-networks-block">
+          <!-- Заклик до дії -->
+          <b class="call-to-action">присоединяйтесь</b>
+          <!-- Список посилань на профілі веб студії в соціальних мережах -->
+          <ul class="studio-social-networks-pages-list list">
+            <!-- Посилання на сторінку веб студії в соціальній мережі Інстаграм -->
+            <li class="studio-social-networks-pages-list-item">
               <a
-                class="contact-data-list-item-link physical-address link"
-                href="https://goo.gl/maps/4vaiXXMEc3k6XGQo9"
-                target="_blank"
-                >г. Киев, пр-т Леси Украинки, 26</a
-              >
+                class="studio-social-networks-pages-list-item-link link"
+                href=""
+                aria-label="Ccылка на страницу веб студии в социальной сети Инстаграм"
+                ><img
+                  src="./images/footer/instagram-logo-2.svg"
+                  alt="Иконка социальной сети Инстаграм"
+              /></a>
             </li>
-            <!-- Електронна адреса веб студії -->
-            <li class="contact-data-list-item">
+            <!-- Посилання на сторінку веб студії в соціальній мережі Твіттер -->
+            <li class="studio-social-networks-pages-list-item">
               <a
-                class="contact-data-list-item-link link"
-                href="mailto:info@example.com"
-                >info@example.com</a
-              >
+                class="studio-social-networks-pages-list-item-link link"
+                href=""
+                aria-label="Ccылка на страницу веб студии в социальной сети Твиттер"
+                ><img
+                  src="./images/footer/twitter-logo-2.svg"
+                  alt="Иконка социальной сети Твиттер"
+              /></a>
             </li>
-            <!-- Мобільний телефон веб студії -->
-            <li class="contact-data-list-item">
+            <!-- Посилання на сторінку веб студії в соціальній мережі Фейсбук -->
+            <li class="studio-social-networks-pages-list-item">
               <a
-                class="contact-data-list-item-link link"
-                href="tel:+380991111111"
-                >+38 099 111 11 11</a
-              >
+                class="studio-social-networks-pages-list-item-link link"
+                href=""
+                aria-label="Ccылка на страницу веб студии в социальной сети Фейсбук"
+                ><img
+                  src="./images/footer/facebook-logo-2.svg"
+                  alt="Иконка социальной сети Фейсбук"
+              /></a>
+            </li>
+            <!-- Посилання на сторінку веб студії в соціальній мережі Лінкедін -->
+            <li class="studio-social-networks-pages-list-item">
+              <a
+                class="studio-social-networks-pages-list-item-link link"
+                href=""
+                aria-label="Ccылка на страницу веб студии в социальной сети Линкедин"
+                ><img
+                  src="./images/footer/linkedin-logo-2.svg"
+                  alt="Иконка социальной сети Линкедин"
+              /></a>
             </li>
           </ul>
-        </address>
-      </div>
-      <!-- Блок-обгортка для подальшої стилізації -->
-      <div>
-        <!-- Заклик до дії -->
-        <b class="call-to-action">присоединяйтесь</b>
-        <!-- Список посилань на профілі веб студії в соціальних мережах -->
-        <ul class="studio-social-networks-pages-list">
-          <!-- Посилання на сторінку веб студії в соціальній мережі Інстаграм -->
-          <li class="studio-social-networks-pages-list-item">
-            <a
-              class="studio-social-networks-pages-list-item-link link"
-              href=""
-              aria-label="Ccылка на страницу веб студии в социальной сети Инстаграм"
-            ></a>
-          </li>
-          <!-- Посилання на сторінку веб студії в соціальній мережі Твіттер -->
-          <li class="studio-social-networks-pages-list-item">
-            <a
-              class="studio-social-networks-pages-list-item-link link"
-              href=""
-              aria-label="Ccылка на страницу веб студии в социальной сети Твиттер"
-            ></a>
-          </li>
-          <!-- Посилання на сторінку веб студії в соціальній мережі Фейсбук -->
-          <li class="studio-social-networks-pages-list-item">
-            <a
-              class="studio-social-networks-pages-list-item-link link"
-              href=""
-              aria-label="Ccылка на страницу веб студии в социальной сети Фейсбук"
-            ></a>
-          </li>
-          <!-- Посилання на сторінку веб студії в соціальній мережі Лінкедін -->
-          <li class="studio-social-networks-pages-list-item">
-            <a
-              class="studio-social-networks-pages-list-item-link link"
-              href=""
-              aria-label="Ccылка на страницу веб студии в социальной сети Линкедин"
-            ></a>
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
   </body>

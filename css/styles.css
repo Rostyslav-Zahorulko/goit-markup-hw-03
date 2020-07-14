@@ -43,12 +43,9 @@ body {
 }
 
 /* Header */
-.header {
-  /* padding-top: 25px;
-  padding-bottom: 25px; */
 
-  /* background-color: var(--primaty-background-color); */
-  background-color: aqua;
+.header {
+  background-color: var(--primaty-background-color);
 }
 
 .container {
@@ -57,7 +54,7 @@ body {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 .header > .container {
@@ -148,16 +145,14 @@ body {
 .hero-section {
   padding-top: 200px;
   padding-bottom: 200px;
+
   text-align: center;
   background-color: green;
 }
 
 .hero-section-title {
-  width: 696px;
   margin-top: 0;
-  margin-right: auto;
   margin-bottom: 30px;
-  margin-left: auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -168,7 +163,6 @@ body {
 }
 
 .modal-window-button {
-  /* min-width: 200px; */
   padding-right: 32px;
   padding-bottom: 10px;
   padding-left: 32px;
@@ -191,6 +185,7 @@ body {
 }
 
 /* Features section */
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -199,7 +194,7 @@ body {
 .features-section {
   padding-bottom: 47px;
 
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
 }
 
 .features-list {
@@ -208,7 +203,6 @@ body {
 
 .features-list-item {
   width: calc((100% - 90px) / 4);
-  /* outline: 2px solid blue; */
 }
 
 .features-list-item:not(:last-child) {
@@ -216,9 +210,9 @@ body {
 }
 
 .features-list-item-image {
-  padding-top: 55px;
+  padding-top: 25px;
   padding-right: 100px;
-  padding-bottom: 55px;
+  padding-bottom: 25px;
   padding-left: 100px;
   margin-bottom: 30px;
   border-radius: 4px;
@@ -246,10 +240,11 @@ body {
 }
 
 /* Services section */
+
 .services-section {
   padding-top: 47px;
 
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
 
 .section-title {
@@ -288,6 +283,7 @@ body {
 }
 
 /* Team section */
+
 .team-section {
   background-color: #f5f4fa;
 }
@@ -334,7 +330,7 @@ body {
 /* Customers section */
 
 .customers-section {
-  background-color: khaki;
+  /* background-color: khaki; */
 }
 
 .customers-list {
@@ -353,14 +349,17 @@ body {
 }
 
 /* Footer */
+
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+
   background-color: #2f303a;
 }
 
 .footer > .container {
   display: flex;
+  align-items: baseline;
 }
 
 .contacts-block {
@@ -413,11 +412,12 @@ body {
 }
 
 /* PORTFOLIO */
+
 .works-section {
   padding-top: 93px;
   padding-bottom: 94px;
 
-  background-color: lightblue;
+  /* background-color: lightblue; */
 }
 
 .filter-buttons-list {
@@ -460,7 +460,7 @@ body {
 
 .works-list-item {
   width: calc((100% - 60px) / 3);
-  outline: 2px solid goldenrod;
+  /* outline: 2px solid goldenrod; */
 }
 
 .works-list-item:not(:nth-child(3n)) {
